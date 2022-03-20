@@ -19,7 +19,6 @@ import { CollapseDrawerProvider } from '../contexts/CollapseDrawerContext';
 // theme
 import ThemeProvider from '../theme';
 // components
-import Settings from '../components/settings';
 import RtlLayout from '../components/RtlLayout';
 import ProgressBar from '../components/ProgressBar';
 import ThemeColorPresets from '../components/ThemeColorPresets';
@@ -50,7 +49,6 @@ export default function MyApp(props) {
             <MotionLazyContainer>
               <ThemeColorPresets>
                 <RtlLayout>
-                  <Settings />
                   <ProgressBar />
                   {getLayout(<Component {...pageProps} />)}
                 </RtlLayout>
