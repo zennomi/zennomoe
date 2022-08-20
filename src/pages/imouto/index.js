@@ -2,7 +2,7 @@ import { Container } from '@mui/material';
 // components
 import Page from '../../components/Page';
 // sections
-import Tool from 'src/sections/imouto/Tool';
+import Tool from '../../sections/imouto/Tool';
 // ----------------------------------------------------------------------
 
 export default function Imouto() {
